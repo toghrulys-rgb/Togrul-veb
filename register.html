@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitab Mağazası - Qeydiyyat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container reverse-layout">
+        <div class="image-section register-bg">
+            <div class="overlay">
+                <h2>Öz Kitabxananızı Yaradın</h2>
+                <p>Minlərlə kitab arasından seçim edib öz kolleksiyanızı yaradın.</p>
+            </div>
+        </div>
+        <div class="form-section">
+            <form id="registerForm" class="auth-form">
+                <div class="logo">
+                    <span class="icon">📚</span>
+                    <h1>Kitab Dünyası</h1>
+                </div>
+                <h2>Qeydiyyatdan keçin</h2>
+                <p class="subtitle">Yeni bir hesab yaradaraq kitablar aləminə daxil olun</p>
+
+                <div id="errorMessage" class="error-message"></div>
+
+                <div class="input-group">
+                    <label for="username">İstifadəçi adı</label>
+                    <input type="text" id="username" name="username" placeholder="İstifadəçi adınızı daxil edin" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">E-poçt ünvanı</label>
+                    <input type="email" id="email" name="email" placeholder="nume@example.com" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Şifrə</label>
+                    <input type="password" id="password" name="password" placeholder="Şifrə təyin edin" required>
+                </div>
+
+                <button type="submit" class="primary-btn">Qeydiyyatı Tamamla</button>
+
+                <p class="switch-page">Artıq hesabınız var? <a href="index.html">Daxil olun</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

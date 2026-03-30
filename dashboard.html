@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitab Mağazası - İdarə Paneli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+    <nav class="navbar">
+        <div class="logo">
+            <span class="icon">📚</span>
+            <span>Kitab Dünyası</span>
+        </div>
+        <div class="user-menu">
+            <span id="welcomeUser" class="username">Yüklənir...</span>
+            <button id="logoutBtn" class="logout-btn">Çıxış Et</button>
+        </div>
+    </nav>
+
+    <main class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Xoş Gəldiniz!</h1>
+            <p>Budur sizin üçün bəzi tövsiyə olunan kitablar.</p>
+        </header>
+
+        <section class="books-grid">
+            <div class="book-card">
+                <div class="book-cover" style="background-image: url('https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop')"></div>
+                <div class="book-info">
+                    <h3>Sirlər Aləmi</h3>
+                    <p class="author">Müəllif: J.K. Rowling</p>
+                    <button class="read-btn">İndi Oxu</button>
+                </div>
+            </div>
+            
+            <div class="book-card">
+                <div class="book-cover" style="background-image: url('https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=600&auto=format&fit=crop')"></div>
+                <div class="book-info">
+                    <h3>Həyatın Mənası</h3>
+                    <p class="author">Müəllif: Viktor Frankl</p>
+                    <button class="read-btn">İndi Oxu</button>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover" style="background-image: url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=600&auto=format&fit=crop')"></div>
+                <div class="book-info">
+                    <h3>Kosmosun Dərinlikləri</h3>
+                    <p class="author">Müəllif: Carl Sagan</p>
+                    <button class="read-btn">İndi Oxu</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
